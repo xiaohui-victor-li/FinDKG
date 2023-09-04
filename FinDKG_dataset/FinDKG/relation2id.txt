@@ -1,0 +1,15 @@
+Relate_To	0
+Control	1
+Operate_In	2
+Impact	3
+Has	4
+Negative_Impact_On	5
+Raise	6
+Is_Member_Of	7
+Participates_In	8
+Announce	9
+Invests_In	10
+Produce	11
+Introduce	12
+Decrease	13
+Positive_Impact_On	14
