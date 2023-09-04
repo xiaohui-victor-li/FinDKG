@@ -20,11 +20,16 @@ The dataset's foundation lies in an extensive news corpus curated to capture bot
 
 ### Data Format
 
-**File format for each data folder**
+**/FinDKG** is the default study dataset folder including the graph dataset and the corresponding data splits. The graph dataset is organized in the following structure:
 
 * 'train.txt', 'valid.txt', and 'test.txt': The first four columns correspond to subject, relation, object, and time. The fifth column is ignored.
 
 * 'stat.txt': The first two columns correspond to the number of entities and relations, respectively.
+
+Test set is held-out for evaluation the model performance. This should match the results of the original paper regarding the Temporal Link Prediction evaluation.
+
+**/FinDKG-full**: The full dataset including a larger size of the event triplets. This graph dataset adopts the same format as `/FinDKG` while is left for future extended research.
+
 
 ## Usage
 
