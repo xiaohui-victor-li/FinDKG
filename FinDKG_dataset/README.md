@@ -7,9 +7,13 @@ FinDKG is an open-source dataset focused on creating a temporally-resolved Finan
 
 While general-purpose knowledge graphs are abundant, industry-specific ones are comparatively rare, especially in the financial sector. FinDKG aims to fill this void by offering a resource for researchers and professionals looking to leverage knowledge graph technology in finance.
 
+
+
 ## FinDKG Dataset
 
-The dataset's foundation lies in an extensive news corpus curated to capture both qualitative and quantitative indicators in the financial landscape. We utilized the Wayback Machine to amass a dataset comprising financial news. 
+The dataset's foundation lies in an extensive news corpus curated to capture both qualitative and quantitative indicators in the financial landscape. We utilized the [Wayback Machine](https://web.archive.org/) to amass a dataset comprising global financial news. 
+
+
 
 ## Dataset Structure
 
@@ -26,9 +30,13 @@ The dataset's foundation lies in an extensive news corpus curated to capture bot
 
 * 'stat.txt': The first two columns correspond to the number of entities and relations, respectively.
 
-Test set is held-out for evaluation the model performance. This should match the results of the original paper regarding the Temporal Link Prediction evaluation.
+Test set is held-out for evaluating the model performance. This should match the results of the original paper regarding the Temporal Link Prediction evaluation.
 
 **/FinDKG-full**: The full dataset including a larger size of the event triplets. This graph dataset adopts the same format as `/FinDKG` while is left for future extended research.
+
+* 'time2id.txt': This time mapping table further provided the mapping from time ID to realistic date for real-world application.
+
+
 
 
 ## Usage
